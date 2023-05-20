@@ -20,6 +20,8 @@
       .attribution {
         font-size: 11px;
         text-align: center;
+
+        height: 5vh;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -30,7 +32,11 @@
     <main>
       <div class="component">
         <div class="nft-container">
-          <img src="./images/image-equilibrium.jpg" alt="equilibrium nft" />
+          <img
+            src="./images/image-equilibrium.jpg"
+            alt="equilibrium nft"
+            class="nft-img"
+          />
         </div>
         <div class="text-container">
           <h1 class="title">Equilibrium #3429</h1>
@@ -39,12 +45,28 @@
           </p>
         </div>
         <div class="nft-info">
-          <div class="price">0.041 ETH</div>
-          <div class="days">3 days left</div>
+          <div class="price">
+            <img
+              src="./images/icon-ethereum.svg"
+              alt="nft icon"
+              class="nft-icon"
+            />
+            <p>0.041 ETH</p>
+          </div>
+          <div class="days">
+            <img
+              src="./images/icon-clock.svg"
+              alt="clock icon"
+              class="clock-icon"
+            />
+            <p>3 days left</p>
+          </div>
         </div>
         <div class="divider"></div>
         <div class="created">
-          <img src="/images/image-avatar.png" alt="avatar" />
+          <div class="avatar-container">
+            <img src="/images/image-avatar.png" alt="avatar" />
+          </div>
           <p>Creation of <span class="creator"> Jules Wyvern </span></p>
         </div>
       </div>
